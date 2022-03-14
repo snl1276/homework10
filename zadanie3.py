@@ -17,7 +17,7 @@ with open('file.txt', 'w') as fd:
 
 with open('file.txt', 'r') as read_file:
     des_data = json.load(read_file)
-    print (des_data)
+    print(des_data)
 print()
 print('Сериализация и десериализация с помощью yaml')
 serial = yaml.dump(data, indent=4)
